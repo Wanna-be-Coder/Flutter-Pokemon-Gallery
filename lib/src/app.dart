@@ -31,12 +31,12 @@ class AppState extends State<App> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Documentation Too Big'),
+          title: const Text('Pokemon Gallery'),
         ),
         body: ImageList(imageList),
         floatingActionButton: FloatingActionButton(
           onPressed: fetchImage,
-          child: Icon(Icons.add),
+          child: const Icon(Icons.add),
         ),
       ),
     );
